@@ -1,0 +1,31 @@
+# Node.js dependencies (if using Node.js)
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Environment variables (if using .env for secrets)
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Google Apps Script metadata (if using clasp)
+.clasp.json
+
+# OS-specific files
+.DS_Store  # macOS
+.DS_Store
+Thumbs.db  # Windows
+
+# Editor-specific files
+.vscode/
+.idea/
+*.log
+*.bak
+
+# Build files (if using a bundler like Vite/Webpack)
+dist/
+out/
+build/
