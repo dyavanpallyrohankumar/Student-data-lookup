@@ -1,15 +1,4 @@
-// import React from "react";
-// import StudentLookup from "./components/StudentLookup";
-
-// function App() {
-//   return (
-//     <div>
-//       <StudentLookup />
-//     </div>
-//   );
-// }
-
-// export default App;
+import { Analytics } from '@vercel/analytics/react';
 import React from "react";
 import StudentData from "./components/StudentData";
 
@@ -18,6 +7,8 @@ function App() {
     <div>
       {/* <h1 style={{ textAlign: "center" }}>CampusFlow - Student Data Lookup</h1> */}
       <StudentData />
+      <Analytics />
+
     </div>
   );
 }
